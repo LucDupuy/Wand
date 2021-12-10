@@ -66,8 +66,8 @@ if __name__ == "__main__":
     x_test = x_data[SPLIT_NUM:]
     y_test = y_labels[SPLIT_NUM:]
 
-    print(y_train.shape)
-    exit()
+    #print(y_train.shape)
+    #exit()
 
     history = []
     if TRAIN_BOOL:
